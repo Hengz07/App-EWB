@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter item name"/>
+
+    <Button
+        android:id="@+id/buttonFindItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Item"
+        android:layout_below="@id/editTextItem"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonFindItem"
+        android:layout_marginTop="16dp"/>
+</RelativeLayout>
